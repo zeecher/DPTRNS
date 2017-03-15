@@ -14,7 +14,7 @@ object changes state, all of its dependents are
 notified and updated automatically.
 
 ----
-# Design Principles
+# OO Design Principles
 
 <dl>
   <dt>Encapsulate what varies</dt>

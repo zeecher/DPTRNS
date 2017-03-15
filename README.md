@@ -29,7 +29,7 @@ notified and updated automatically.
   <dt>Strive for loosely coupled designs between objects that interact.</dt>
   <dd>Loosely coupled designs allow us to build flexible OO systems that can handle change because they minimize the    interdependency between objects.</dd>
   
-  <dt>Classes should be open for extension, but closed for modification.</dt>
+  <dt>Classes should be open for extension, but closed for modification. (Open-Closed)</dt>
   <dd>Our goal is to allow classes to be easily extended to
 incorporate new behavior without modifying existing code.
 What do we get if we accomplish this? Designs that are

@@ -16,10 +16,16 @@ responsibilities to an object dynamically.
 Decorators provide a fl exible alternative to
 subclassing for extending functionality.
 
+---
+
 __The Factory Method__ Pattern defi nes an interface
 for creating an object, but lets subclasses decide which
 class to instantiate. Factory Method lets a class defer
 instantiation to subclasses.
+
+###### adheres:
+
+* Dependency Inversion Principle
 
 ----
 
@@ -58,5 +64,11 @@ complex, hard to understand code
 
 Strive to design our system so that the closed parts are isolated from our new extensions.
 </dd>
+ 
+ <dt>Depend upon abstractions. Do not
+depend upon concrete classes.</dt>
+<dd>
+Our high-level components should not depend on our low-level
+components; rather, they should both depend on abstractions.</dd>
  
 </dl>

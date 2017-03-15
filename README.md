@@ -48,6 +48,9 @@ Be careful when choosing the areas of code
 that need to be extended; applying the
 Open-Closed Principle EVERYWHERE
 is wasteful, unnecessary, and can lead to
-complex, hard to understand code</dd>
+complex, hard to understand code
+
+Strive to design our system so that the closed parts are isolated from our new extensions.
+</dd>
  
 </dl>

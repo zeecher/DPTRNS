@@ -13,6 +13,11 @@ dependency between objects so that when one
 object changes state, all of its dependents are
 notified and updated automatically.
 
+__The Decorator Pattern__ attaches additional
+responsibilities to an object dynamically.
+Decorators provide a fl exible alternative to
+subclassing for extending functionality.
+
 ----
 # OO Design Principles
 

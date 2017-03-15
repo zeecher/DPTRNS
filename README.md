@@ -14,8 +14,19 @@ object changes state, all of its dependents are
 notified and updated automatically.
 
 ----
+# Design Principles
 
 <dl>
-  <dt>Strive for loosely coupled designs between objects that interact.t</dt>
+  <dt>Encapsulate what varies</dt>
+  <dd></dd>
+  
+  <dt>Favor composition over inheritance</dt>
+  <dd></dd>
+  
+  <dt>Program to interface, not implementations</dt>
+  <dd></dd>
+
+  <dt>Strive for loosely coupled designs between objects that interact.</dt>
   <dd>Loosely coupled designs allow us to build flexible OO systems that can handle change because they minimize the    interdependency between objects.</dd>
+ 
 </dl>

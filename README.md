@@ -28,7 +28,8 @@ subclassing for extending functionality.
   <dd></dd>
   
   <dt>Program to interface, not implementations</dt>
-  <dd></dd>
+  <dd>identify the
+aspects that vary and separate them from what stays the same.</dd>
 
   <dt>Strive for loosely coupled designs between objects that interact.</dt>
   <dd>Loosely coupled designs allow us to build flexible OO systems that can handle change because they minimize the    interdependency between objects.</dd>

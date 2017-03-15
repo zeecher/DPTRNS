@@ -6,8 +6,6 @@ encapsulates each one, and makes them interchangeable.
 Strategy lets the algorithm vary independently from
 clients that use it.
 
-----
-
 __The Observer Pattern__ defines a one-to-many
 dependency between objects so that when one
 object changes state, all of its dependents are
@@ -19,6 +17,7 @@ Decorators provide a fl exible alternative to
 subclassing for extending functionality.
 
 ----
+
 # OO Design Principles
 
 <dl>

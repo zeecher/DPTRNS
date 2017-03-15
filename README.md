@@ -34,6 +34,15 @@ notified and updated automatically.
 incorporate new behavior without modifying existing code.
 What do we get if we accomplish this? Designs that are
 resilient to change and fl exible enough to take on new
-functionality to meet changing requirements.</dd>
+functionality to meet changing requirements.
+
+While it may seem like a contradiction,
+there are techniques for allowing code to be
+extended without direct modif ication.
+Be careful when choosing the areas of code
+that need to be extended; applying the
+Open-Closed Principle EVERYWHERE
+is wasteful, unnecessary, and can lead to
+complex, hard to understand code</dd>
  
 </dl>

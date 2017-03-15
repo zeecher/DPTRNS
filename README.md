@@ -16,6 +16,11 @@ responsibilities to an object dynamically.
 Decorators provide a fl exible alternative to
 subclassing for extending functionality.
 
+__The Factory Method__ Pattern defi nes an interface
+for creating an object, but lets subclasses decide which
+class to instantiate. Factory Method lets a class defer
+instantiation to subclasses.
+
 ----
 
 # OO Design Principles

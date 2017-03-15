@@ -35,7 +35,8 @@ subclassing for extending functionality.
   <dd>Loosely coupled designs allow us to build flexible OO systems that can handle change because they minimize the    interdependency between objects.</dd>
   
   <dt>Classes should be open for extension, but closed for modification. (Open-Closed)</dt>
-  <dd>Our goal is to allow classes to be easily extended to
+  <dd>
+Our goal is to allow classes to be easily extended to
 incorporate new behavior without modifying existing code.
 What do we get if we accomplish this? Designs that are
 resilient to change and fl exible enough to take on new

@@ -1,26 +1,6 @@
 # DPTRNS
 
-
-__The Strategy Pattern__ defines a family of algorithms,
-encapsulates each one, and makes them interchangeable.
-Strategy lets the algorithm vary independently from
-clients that use it.
-
----
-
-__The Observer Pattern__ defines a one-to-many
-dependency between objects so that when one
-object changes state, all of its dependents are
-notified and updated automatically.
-
----
-
-__The Decorator Pattern__ attaches additional
-responsibilities to an object dynamically.
-Decorators provide a fl exible alternative to
-subclassing for extending functionality.
-
----
+### Creational
 
 __The Factory Method Pattern__ Pattern defines an interface
 for creating an object, but lets subclasses decide which
@@ -43,6 +23,41 @@ __The Singleton Pattern__ Ensure a class only has one instance and provide a glo
 
 ----
 
+### Structional
+
+__The Decorator Pattern__ attaches additional
+responsibilities to an object dynamically.
+Decorators provide a fl exible alternative to
+subclassing for extending functionality.
+
+---
+
+### Behavioral
+
+__The Chain of Responsibility Pattern__ Chain object calls while giving each of then objects 
+the ability to eigher end the execution and handle the request, if it can't handle the request then 
+send the request up the chain.
+
+###### pattern similarities:
+
+* Decorator Pattern -> Destinction: but in chain u can stop the execution any time in the chain
+
+---
+
+__The Strategy Pattern__ defines a family of algorithms,
+encapsulates each one, and makes them interchangeable.
+Strategy lets the algorithm vary independently from
+clients that use it.
+
+---
+
+__The Observer Pattern__ defines a one-to-many
+dependency between objects so that when one
+object changes state, all of its dependents are
+notified and updated automatically.
+
+---
+
 __The State Pattern__ allows an object to alter its behavior when its internal state changes. The object will appear to change its class. 
 
 ###### pattern similarities:
@@ -62,16 +77,6 @@ deferring some steps to subclasses. Template Method lets subclasses redefine cer
 ###### adheres:
 
 * Don't call us, we'll call you
-
----
-
-__The Chain of Responsibility Pattern__ Chain object calls while giving each of then objects 
-the ability to eigher end the execution and handle the request, if it can't handle the request then 
-send the request up the chain.
-
-###### pattern similarities:
-
-* Decorator Pattern -> Destinction: but in chain u can stop the execution any time in the chain
 
 ---
 

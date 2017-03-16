@@ -101,5 +101,7 @@ Our high-level components should not depend on our low-level
 components; rather, they should both depend on abstractions.</dd>
 
 <dt>Don't call us, we'll call you</dt>
+<dd>Superclasses are running the show, so let them call your subclasses when 
+they're needed, just like they do in Hollywood</dd>
  
 </dl>

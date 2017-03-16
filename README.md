@@ -37,6 +37,15 @@ __The Singleton Pattern__ Ensure a class only has one instance and provide a glo
 
 ----
 
+__The State Pattern__ allows an object to alter its behavior when its internal state changes. The object will appear to change its class. 
+
+###### pattern similarities:
+
+* Strategy Pattern
+
+
+
+
 # OO Design Principles
 
 <dl>

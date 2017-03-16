@@ -92,7 +92,9 @@ deferring some steps to subclasses. Template Method lets subclasses redefine cer
 
 ---
 
-# OO Design Principles
+OO Design Principles
+===================================
+[Object Oriented Design principles explained](https://www.codeproject.com/Articles/93369/How-I-explained-OOD-to-my-wife)
 
 <dl>
   <dt>Encapsulate what varies</dt>

@@ -27,7 +27,7 @@ instantiation to subclasses.
 
 * Dependency Inversion Principle
 
-__ The Simple Factory Idiom__ To separate the process of creating
+__The Simple Factory Idiom__ To separate the process of creating
 concrete objects from the client that uses those objects.
 To reduce the dependency of the client on that concrete implementations.
 

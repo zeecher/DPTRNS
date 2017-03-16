@@ -26,6 +26,15 @@ __The Singleton Pattern__ Ensure a class only has one instance and provide a glo
 
 ### Structional
 
+Examples
+--------
+
+-  `Symfony
+   DoctrineBridge <https://github.com/symfony/DoctrineBridge>`__
+
+
+---
+
 __The Decorator Pattern__ attaches additional
 responsibilities to an object dynamically.
 Decorators provide a fl exible alternative to
@@ -42,6 +51,11 @@ send the request up the chain.
 ###### pattern similarities:
 
 * Decorator Pattern -> Destinction: but in chain u can stop the execution any time in the chain
+
+---
+
+__The Command Pattern__
+
 
 ---
 

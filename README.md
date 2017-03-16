@@ -6,10 +6,14 @@ encapsulates each one, and makes them interchangeable.
 Strategy lets the algorithm vary independently from
 clients that use it.
 
+---
+
 __The Observer Pattern__ defines a one-to-many
 dependency between objects so that when one
 object changes state, all of its dependents are
 notified and updated automatically.
+
+---
 
 __The Decorator Pattern__ attaches additional
 responsibilities to an object dynamically.
@@ -23,9 +27,13 @@ for creating an object, but lets subclasses decide which
 class to instantiate. Factory Method lets a class defer
 instantiation to subclasses.
 
+---
+
 ###### adheres:
 
 * Dependency Inversion Principle
+
+---
 
 __The Simple Factory Pattern__ To separate the process of creating
 concrete objects from the client that uses those objects.
@@ -57,6 +65,13 @@ deferring some steps to subclasses. Template Method lets subclasses redefine cer
 
 * Don't call us, we'll call you
 
+---
+
+__The Chain of Responsibility Pattern__ Chain object calls while giving each of then objects 
+the ability to eigher end the execution and handle the request, if it can't handle the request then 
+send the request up the chain.
+
+---
 
 # OO Design Principles
 

@@ -43,6 +43,10 @@ __The State Pattern__ allows an object to alter its behavior when its internal s
 
 * Strategy Pattern
 
+---
+
+__The Iterator Pattern__ provides a way to access the elements of an aggreage object 
+sequentially without exposing its unberlying representation.
 
 
 

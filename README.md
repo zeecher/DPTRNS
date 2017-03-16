@@ -71,7 +71,7 @@ send the request up the chain.
 
 ###### pattern similarities:
 
-* Decorator Pattern -> Destinction: but in chain u can stop the execution any time at each chain
+* Decorator Pattern -> Destinction: but in chain u can stop the execution any time in the chain
 
 ---
 

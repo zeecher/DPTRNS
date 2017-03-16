@@ -48,6 +48,10 @@ __The State Pattern__ allows an object to alter its behavior when its internal s
 __The Iterator Pattern__ provides a way to access the elements of an aggreage object 
 sequentially without exposing its unberlying representation.
 
+---
+
+__The Template Method Pattern__ Define the skeleton of an algorithm in an operation, 
+deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changeing the algorithm's structure.
 
 
 # OO Design Principles

@@ -69,6 +69,10 @@ __The Chain of Responsibility Pattern__ Chain object calls while giving each of 
 the ability to eigher end the execution and handle the request, if it can't handle the request then 
 send the request up the chain.
 
+###### pattern similarities:
+
+* Decorator Pattern -> Destinction: but in chain u can stop the execution any time at each chain
+
 ---
 
 # OO Design Principles

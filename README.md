@@ -18,7 +18,7 @@ subclassing for extending functionality.
 
 ---
 
-__The Factory Method__ Pattern defines an interface
+__The Factory Method Pattern__ Pattern defines an interface
 for creating an object, but lets subclasses decide which
 class to instantiate. Factory Method lets a class defer
 instantiation to subclasses.
@@ -27,7 +27,7 @@ instantiation to subclasses.
 
 * Dependency Inversion Principle
 
-__The Simple Factory Idiom__ To separate the process of creating
+__The Simple Factory Pattern__ To separate the process of creating
 concrete objects from the client that uses those objects.
 To reduce the dependency of the client on that concrete implementations.
 

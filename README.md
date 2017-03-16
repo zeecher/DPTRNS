@@ -51,7 +51,11 @@ sequentially without exposing its unberlying representation.
 ---
 
 __The Template Method Pattern__ Define the skeleton of an algorithm in an operation, 
-deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changeing the algorithm's structure.
+deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
+
+###### adheres:
+
+* Don't call us, we'll call you
 
 
 # OO Design Principles
@@ -95,5 +99,7 @@ depend upon concrete classes.</dt>
 <dd>
 Our high-level components should not depend on our low-level
 components; rather, they should both depend on abstractions.</dd>
+
+<dt>Don't call us, we'll call you</dt>
  
 </dl>

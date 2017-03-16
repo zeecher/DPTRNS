@@ -18,7 +18,7 @@ subclassing for extending functionality.
 
 ---
 
-__The Factory Method__ Pattern defi nes an interface
+__The Factory Method__ Pattern defines an interface
 for creating an object, but lets subclasses decide which
 class to instantiate. Factory Method lets a class defer
 instantiation to subclasses.

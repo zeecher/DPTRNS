@@ -26,12 +26,9 @@ __The Singleton Pattern__ Ensure a class only has one instance and provide a glo
 
 ### Structional
 
-Examples
---------
+__The Bridge Pattern__
 
--  `Symfony
-   DoctrineBridge <https://github.com/symfony/DoctrineBridge>`__
-
+[Explenation](https://www.codeproject.com/Articles/98598/How-I-explained-Design-Patterns-to-my-wife-Part)
 
 ---
 

@@ -42,6 +42,9 @@ subclassing for extending functionality.
 
 ### Behavioral
 
+__Momento Design Pattern__
+Undo/Redo
+
 __The Chain of Responsibility Pattern__ Chain object calls while giving each of then objects 
 the ability to eigher end the execution and handle the request, if it can't handle the request then 
 send the request up the chain.

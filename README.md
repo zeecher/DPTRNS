@@ -42,6 +42,9 @@ subclassing for extending functionality.
 
 ### Behavioral
 
+__ Null Object Design Pattern__
+
+
 __Momento Design Pattern__
 Undo/Redo
 

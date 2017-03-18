@@ -150,6 +150,8 @@ they're needed, just like they do in Hollywood</dd>
 </dl>
 
 ###### Inversion of Control Containers and the Dependency Injection pattern
+* [Dependency Injection Explained](https://docs.phalconphp.com/en/3.0.0/reference/di-explained.html)
+* [Dependency Injection/Service Location¶](https://docs.phalconphp.com/en/3.0.0/reference/di.html)
 
 patterns user in LV
 The Builder (Manager) pattern

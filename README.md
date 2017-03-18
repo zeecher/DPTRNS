@@ -148,3 +148,11 @@ components; rather, they should both depend on abstractions.</dd>
 they're needed, just like they do in Hollywood</dd>
  
 </dl>
+
+patterns user in LV
+The Builder (Manager) pattern
+The Factory pattern
+The Repository pattern
+The Strategy pattern
+The Provider pattern
+The Facade pattern

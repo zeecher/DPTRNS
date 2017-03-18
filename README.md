@@ -154,6 +154,9 @@ they're needed, just like they do in Hollywood</dd>
 * [Dependency Injection/Service Location¶](https://docs.phalconphp.com/en/3.0.0/reference/di.html)
 * Inversion of Control pattern
 
+###### Example containers
+* [Getting started with PHP-DI](http://php-di.org/doc/getting-started.html)
+
 patterns user in LV
 The Builder (Manager) pattern
 The Factory pattern

@@ -149,6 +149,8 @@ they're needed, just like they do in Hollywood</dd>
  
 </dl>
 
+###### Inversion of Control Containers and the Dependency Injection pattern
+
 patterns user in LV
 The Builder (Manager) pattern
 The Factory pattern

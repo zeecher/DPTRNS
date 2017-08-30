@@ -35,7 +35,7 @@ __The Bridge Pattern__
 
 __The Composite Pattern__
 
-
+links:
 https://youtu.be/2HUnoKyC9l0
 
 
@@ -45,6 +45,9 @@ __The Decorator Pattern__ attaches additional
 responsibilities to an object dynamically.
 Decorators provide a fl exible alternative to
 subclassing for extending functionality.
+
+links:
+/home/zeecher/Videos/Development/Design Patterns/Design Patterns in PHP/1 - The Decorator Pattern.mp4
 
 ---
 

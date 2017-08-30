@@ -25,7 +25,7 @@ __The Singleton Pattern__ Ensure a class only has one instance and provide a glo
 
 ----
 
-### Structional
+### Structural
 
 __The Bridge Pattern__
 

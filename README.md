@@ -33,6 +33,12 @@ __The Bridge Pattern__
 
 ---
 
+__The Composite Pattern__
+
+Be warned? though; it is so neat, you might be tempted to overuse this strategy.
+https://youtu.be/2HUnoKyC9l0
+---
+
 __The Decorator Pattern__ attaches additional
 responsibilities to an object dynamically.
 Decorators provide a fl exible alternative to

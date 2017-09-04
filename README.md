@@ -53,9 +53,14 @@ To reduce the dependency of the client on that concrete implementations.
 __Prototype__ A fully initialized instance to be copied or cloned 
 
 ###### Definition:
-Specify the kind of objects to create using a prototypical instance, and create new objects by copying this prototype.
+* Specify the kind of objects to create using a prototypical instance, and create new objects by copying this prototype.
+* To avoid the cost of creating objects the standard way (new Foo()) and instead create a prototype and clone it.
+
+###### Examples:
+Large amounts of data (e.g. create 1,000,000 rows in a database at once via a ORM).
 
 [link1](http://www.dofactory.com/net/prototype-design-pattern)
+[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Creational/Prototype/README.html)
 
 
 __The Singleton Pattern__ A class of which only a single instance can exist

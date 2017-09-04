@@ -86,7 +86,8 @@ Ensure a class only has one instance and provide a global point of access to it.
 ----
 
 __Multiton__ To have only a list of named instances that are used, like a singleton but with n instances.
-####THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND MAINTAINABILITY USE DEPENDENCY INJECTION!
+
+__THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND MAINTAINABILITY USE DEPENDENCY INJECTION!__
 
 [designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Creational/Multiton/README.html)
 
@@ -106,9 +107,27 @@ However these benefits are mostly true for objects that are expensive with respe
 
 ### Structural
 
-__The Bridge Pattern__
+In Software Engineering, Structural Design Patterns are Design Patterns that ease the design by identifying a simple way to realize relationships between entities.
 
-[link1](https://www.codeproject.com/Articles/98598/How-I-explained-Design-Patterns-to-my-wife-Part)
+__Adapter / Wrapper__ Match interfaces of different classes
+
+###### Definition:
+Convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
+
+###### Examples
+* DB Client libraries adapter
+* Using multiple different webservices and adapters normalize data so that the outcome is the same for all
+
+----
+
+__The Bridge Pattern__ Separates an object’s interface from its implementation
+
+###### Definition:
+Decouple an abstraction from its implementation so that the two can vary independently.
+
+[codeproject](https://www.codeproject.com/Articles/98598/How-I-explained-Design-Patterns-to-my-wife-Part)
+[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Structural/Bridge/README.html)
+[youtube](https://youtu.be/9jIgSsIfh_8)
 
 ---
 
@@ -132,6 +151,7 @@ local references:
 ### Behavioral
 
 [Behavioral Design Patterns](https://www.codeproject.com/Articles/455228/Design-Patterns-of-Behavioral-Design-Patterns#Command)
+
 
 __ Null Object Design Pattern__
 

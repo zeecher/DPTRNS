@@ -17,6 +17,17 @@ Provide an interface for creating families of related or dependent objects witho
 
 ----
 
+__Builder__ Separates object construction from its representation 
+Builder is an interface that build parts of a complex object.
+
+###### Definition:
+Separate the construction of a complex object from its representation so that the same construction process can create different representations.
+
+[link1](http://www.dofactory.com/net/builder-design-pattern)
+[link2](http://designpatternsphp.readthedocs.io/en/latest/Creational/Builder/README.html)
+
+----
+
 __The Factory Method Pattern__ Pattern defines an interface
 for creating an object, but lets subclasses decide which
 class to instantiate. Factory Method lets a class defer
@@ -35,14 +46,7 @@ __The Simple Factory Pattern__ To separate the process of creating
 concrete objects from the client that uses those objects.
 To reduce the dependency of the client on that concrete implementations.
 
-----
 
-__Builder__ Separates object construction from its representation 
-
-###### Definition:
-Separate the construction of a complex object from its representation so that the same construction process can create different representations.
-
-[link1](http://www.dofactory.com/net/builder-design-pattern)
 
 ----
 

@@ -167,7 +167,8 @@ local references:
 /home/zeecher/Videos/Development/Design Patterns/Design Patterns in PHP/1 - The Decorator Pattern.mp4
 
 ----
-__ Facade__ A single class that represents an entire subsystem
+
+__Facade__ A single class that represents an entire subsystem
 
 ###### Defenition:
 Provide a unified interface to a set of interfaces in a subsystem. Façade defines a higher-level interface that makes the subsystem easier to use.

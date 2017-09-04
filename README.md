@@ -46,7 +46,9 @@ __The Simple Factory Pattern__ To separate the process of creating
 concrete objects from the client that uses those objects.
 To reduce the dependency of the client on that concrete implementations.
 
+It differs from the static factory because it is not static. Therefore, you can have multiple factories, differently parametrized, you can subclass it and you can mock it. It always should be preferred over a static factory!
 
+[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Creational/SimpleFactory/README.html)
 
 ----
 
@@ -61,6 +63,8 @@ Large amounts of data (e.g. create 1,000,000 rows in a database at once via a OR
 
 [link1](http://www.dofactory.com/net/prototype-design-pattern)
 [designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Creational/Prototype/README.html)
+
+----
 
 
 __The Singleton Pattern__ A class of which only a single instance can exist

@@ -39,6 +39,10 @@ __Builder__ Separate the construction of a complex object from its representatio
 
 ----
 
+__Prototype__ Specify the kind of objects to create using a prototypical instance, and create new objects by copying this prototype.
+
+[link1](http://www.dofactory.com/net/prototype-design-pattern)
+
 ### Structural
 
 __The Bridge Pattern__

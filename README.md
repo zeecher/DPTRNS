@@ -142,16 +142,31 @@ __The Composite Pattern__ A tree structure of simple and composite objects
 [youtube](https://youtu.be/2HUnoKyC9l0)
 
 ----
+__Data Mapper__
 
-__The Decorator Pattern__ attaches additional
-responsibilities to an object dynamically.
-Decorators provide a fl exible alternative to
-subclassing for extending functionality.
+###### Definition:
+
+A Data Mapper, is a Data Access Layer that performs bidirectional transfer of data between a persistent data store (often a relational database) and an in memory data representation (the domain layer). The goal of the pattern is to keep the in memory representation and the persistent data store independent of each other and the data mapper itself. The layer is composed of one or more mappers (or Data Access Objects), performing the data transfer. Mapper implementations vary in scope. Generic mappers will handle many different domain entity types, dedicated mappers will handle one or a few.
+
+The key point of this pattern is, unlike Active Record pattern, the data model follows Single Responsibility Principle.
+
+----
+
+__The Decorator Pattern__ Add responsibilities to objects dynamically
+
+###### Definition:
+* To dynamically add new functionality to class instances.
+* Attaches additional responsibilities to an object dynamically.
+* Decorators provide a flexible alternative to subclassing for extending functionality.
+
+[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Structural/Decorator/README.html)
+[dofactory](http://www.dofactory.com/net/decorator-design-pattern)
+[youtube](https://youtu.be/j40kRwSm4VE)
 
 local references:
 /home/zeecher/Videos/Development/Design Patterns/Design Patterns in PHP/1 - The Decorator Pattern.mp4
 
----
+----
 
 ### Behavioral
 

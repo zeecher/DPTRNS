@@ -191,6 +191,13 @@ __Flyweight__	A fine-grained instance used for efficient sharing
 [youtube](https://youtu.be/0vV-R2926ss)
 
 ----
+
+__Proxy__	An object representing another object
+
+###### Defenition:
+* Provide a surrogate or placeholder for another object to control access to it.
+* To interface to anything that is expensive or impossible to duplicate.
+----
 ### Behavioral
 
 Behavioral design patterns are design patterns that identify common communication patterns between objects and realize these patterns. By doing so, these patterns increase flexibility in carrying out this communication.

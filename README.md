@@ -13,7 +13,7 @@ __Abstract Factory__ Creates an instance of several families of classes
 Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
 
 [link1](http://www.dofactory.com/net/abstract-factory-design-pattern)
-[link2](http://designpatternsphp.readthedocs.io/en/latest/Creational/AbstractFactory/README.html)
+[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Creational/AbstractFactory/README.html)
 
 ----
 
@@ -24,7 +24,7 @@ Builder is an interface that build parts of a complex object.
 Separate the construction of a complex object from its representation so that the same construction process can create different representations.
 
 [link1](http://www.dofactory.com/net/builder-design-pattern)
-[link2](http://designpatternsphp.readthedocs.io/en/latest/Creational/Builder/README.html)
+[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Creational/Builder/README.html)
 
 ----
 
@@ -38,7 +38,7 @@ instantiation to subclasses.
 * Dependency Inversion Principle
 
 [link1](http://www.dofactory.com/net/factory-method-design-pattern)
-[link2](http://designpatternsphp.readthedocs.io/en/latest/Creational/FactoryMethod/README.html)
+[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Creational/FactoryMethod/README.html)
 
 ---
 
@@ -64,6 +64,25 @@ __The Singleton Pattern__ A class of which only a single instance can exist
 Ensure a class only has one instance and provide a global point of access to it.
 
 [link1](http://www.dofactory.com/net/singleton-design-pattern)
+
+----
+
+__Multiton__ To have only a list of named instances that are used, like a singleton but with n instances.
+####THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND MAINTAINABILITY USE DEPENDENCY INJECTION!
+
+[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Creational/Multiton/README.html)
+
+----
+
+__Pool__
+
+The object pool pattern is a software creational design pattern that uses a set of initialized objects kept ready to use – a “pool” – rather than allocating and destroying them on demand. A client of the pool will request an object from the pool and perform operations on the returned object. When the client has finished, it returns the object, which is a specific type of factory object, to the pool rather than destroying it.
+
+Object pooling can offer a significant performance boost in situations where the cost of initializing a class instance is high, the rate of instantiation of a class is high, and the number of instances in use at any one time is low. The pooled object is obtained in predictable time when creation of the new objects (especially over network) may take variable time.
+
+However these benefits are mostly true for objects that are expensive with respect to time, such as database connections, socket connections, threads and large graphic objects like fonts or bitmaps. In certain situations, simple object pooling (that hold no external resources, but only occupy memory) may not be efficient and could decrease performance.
+
+[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Creational/Pool/README.html)
 
 ----
 

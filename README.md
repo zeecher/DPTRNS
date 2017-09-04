@@ -22,10 +22,12 @@ To reduce the dependency of the client on that concrete implementations.
 ----
 
 __The Singleton Pattern__ Ensure a class only has one instance and provide a global point of access to it.
-http://www.dofactory.com/net/abstract-factory-design-pattern
+
 ----
 
 __Abstract Factory__ Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
+
+http://www.dofactory.com/net/abstract-factory-design-pattern
 
 ----
 

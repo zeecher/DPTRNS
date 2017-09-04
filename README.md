@@ -129,14 +129,14 @@ Decouple an abstraction from its implementation so that the two can vary indepen
 [designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Structural/Bridge/README.html)
 [youtube](https://youtu.be/9jIgSsIfh_8)
 
----
+----
 
 __The Composite Pattern__
 
 [link1](https://youtu.be/2HUnoKyC9l0)
 
 
----
+----
 
 __The Decorator Pattern__ attaches additional
 responsibilities to an object dynamically.

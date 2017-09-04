@@ -13,7 +13,7 @@ instantiation to subclasses.
 
 * Dependency Inversion Principle
 
-[details]: http://www.dofactory.com/net/factory-method-design-pattern
+[link1](http://www.dofactory.com/net/factory-method-design-pattern)
 
 ---
 
@@ -29,13 +29,13 @@ __The Singleton Pattern__ Ensure a class only has one instance and provide a glo
 
 __Abstract Factory__ Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
 
-http://www.dofactory.com/net/abstract-factory-design-pattern
+[link1](http://www.dofactory.com/net/abstract-factory-design-pattern)
 
 ----
 
 __Builder__ Separate the construction of a complex object from its representation so that the same construction process can create different representations.
 
-http://www.dofactory.com/net/builder-design-pattern
+[link1](http://www.dofactory.com/net/builder-design-pattern)
 
 ----
 
@@ -43,14 +43,13 @@ http://www.dofactory.com/net/builder-design-pattern
 
 __The Bridge Pattern__
 
-[Explenation](https://www.codeproject.com/Articles/98598/How-I-explained-Design-Patterns-to-my-wife-Part)
+[link1](https://www.codeproject.com/Articles/98598/How-I-explained-Design-Patterns-to-my-wife-Part)
 
 ---
 
 __The Composite Pattern__
 
-links:
-https://youtu.be/2HUnoKyC9l0
+[link1](https://youtu.be/2HUnoKyC9l0)
 
 
 ---
@@ -60,7 +59,7 @@ responsibilities to an object dynamically.
 Decorators provide a fl exible alternative to
 subclassing for extending functionality.
 
-links:
+local references:
 /home/zeecher/Videos/Development/Design Patterns/Design Patterns in PHP/1 - The Decorator Pattern.mp4
 
 ---

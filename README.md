@@ -178,6 +178,19 @@ Provide a unified interface to a set of interfaces in a subsystem. Façade defin
 [youtube](https://youtu.be/B1Y8fcYrz5o)
 
 ----
+
+__Flyweight__	A fine-grained instance used for efficient sharing
+
+###### Defenition:
+
+* Use sharing to support large numbers of fine-grained objects efficiently.
+* To minimise memory usage, a Flyweight shares as much as possible memory with similar objects. It is needed when a large amount of objects is used that don’t differ much in state. A common practice is to hold state in external data structures and pass them to the flyweight object when needed.
+
+[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Structural/Flyweight/README.html)
+[dofactory](http://www.dofactory.com/net/flyweight-design-pattern)
+[youtube](https://youtu.be/0vV-R2926ss)
+
+----
 ### Behavioral
 
 Behavioral design patterns are design patterns that identify common communication patterns between objects and realize these patterns. By doing so, these patterns increase flexibility in carrying out this communication.

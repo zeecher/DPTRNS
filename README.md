@@ -31,6 +31,12 @@ http://www.dofactory.com/net/abstract-factory-design-pattern
 
 ----
 
+__Builder__ Separate the construction of a complex object from its representation so that the same construction process can create different representations.
+
+http://www.dofactory.com/net/builder-design-pattern
+
+----
+
 ### Structural
 
 __The Bridge Pattern__

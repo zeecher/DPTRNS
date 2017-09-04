@@ -131,10 +131,15 @@ Decouple an abstraction from its implementation so that the two can vary indepen
 
 ----
 
-__The Composite Pattern__
+__The Composite Pattern__ A tree structure of simple and composite objects
 
-[link1](https://youtu.be/2HUnoKyC9l0)
+###### Definition 
+* To treat a group of objects the same way as a single instance of the object.
+* Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
 
+[dofactory](http://www.dofactory.com/net/composite-design-pattern)
+[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Structural/Composite/README.html)
+[youtube](https://youtu.be/2HUnoKyC9l0)
 
 ----
 

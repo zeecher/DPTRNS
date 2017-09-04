@@ -197,6 +197,11 @@ __Proxy__	An object representing another object
 ###### Defenition:
 * Provide a surrogate or placeholder for another object to control access to it.
 * To interface to anything that is expensive or impossible to duplicate.
+
+[youtube](https://youtu.be/cHg5bWW4nUI)
+[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Structural/Proxy/README.html)
+[dofactory](http://www.dofactory.com/net/proxy-design-pattern)
+
 ----
 ### Behavioral
 

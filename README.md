@@ -167,8 +167,17 @@ local references:
 /home/zeecher/Videos/Development/Design Patterns/Design Patterns in PHP/1 - The Decorator Pattern.mp4
 
 ----
+__ Facade__ A single class that represents an entire subsystem
 
-###### Behavioral
+###### Defenition:
+Provide a unified interface to a set of interfaces in a subsystem. Façade defines a higher-level interface that makes the subsystem easier to use.
+
+[dofactory](http://www.dofactory.com/net/facade-design-pattern)
+[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Structural/Facade/README.html)
+[youtube](https://youtu.be/B1Y8fcYrz5o)
+
+----
+### Behavioral
 
 Behavioral design patterns are design patterns that identify common communication patterns between objects and realize these patterns. By doing so, these patterns increase flexibility in carrying out this communication.
 

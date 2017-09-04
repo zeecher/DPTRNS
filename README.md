@@ -7,6 +7,7 @@ The 23 Gang of Four (GoF) patterns are generally considered the foundation for a
 ### Creational
 
 ----
+
 __Abstract Factory__ Creates an instance of several families of classes
 
 ###### Definition:
@@ -14,17 +15,6 @@ Provide an interface for creating families of related or dependent objects witho
 
 [link1](http://www.dofactory.com/net/abstract-factory-design-pattern)
 [designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Creational/AbstractFactory/README.html)
-
-----
-
-__Builder__ Separates object construction from its representation 
-Builder is an interface that build parts of a complex object.
-
-###### Definition:
-Separate the construction of a complex object from its representation so that the same construction process can create different representations.
-
-[link1](http://www.dofactory.com/net/builder-design-pattern)
-[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Creational/Builder/README.html)
 
 ----
 
@@ -52,6 +42,26 @@ It differs from the static factory because it is not static. Therefore, you can 
 
 ----
 
+__Static Factory__
+
+###### Definition:
+Similar to the AbstractFactory, this pattern is used to create series of related or dependent objects. The difference between this and the abstract factory pattern is that the static factory pattern uses just one static method to create all types of objects it can create. It is usually named factory or build.
+
+[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Creational/StaticFactory/README.html)
+
+----
+
+__Builder__ Separates object construction from its representation 
+Builder is an interface that build parts of a complex object.
+
+###### Definition:
+Separate the construction of a complex object from its representation so that the same construction process can create different representations.
+
+[link1](http://www.dofactory.com/net/builder-design-pattern)
+[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Creational/Builder/README.html)
+
+----
+
 __Prototype__ A fully initialized instance to be copied or cloned 
 
 ###### Definition:
@@ -65,7 +75,6 @@ Large amounts of data (e.g. create 1,000,000 rows in a database at once via a OR
 [designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Creational/Prototype/README.html)
 
 ----
-
 
 __The Singleton Pattern__ A class of which only a single instance can exist
 

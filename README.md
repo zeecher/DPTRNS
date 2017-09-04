@@ -1,6 +1,5 @@
 Design Patterns
 ==================
-[Behavioral Design Patterns](https://www.codeproject.com/Articles/455228/Design-Patterns-of-Behavioral-Design-Patterns#Command)
 
 ### Creational
 
@@ -22,14 +21,6 @@ concrete objects from the client that uses those objects.
 To reduce the dependency of the client on that concrete implementations.
 
 ----
-__The Singleton Pattern__ A class of which only a single instance can exist
-
-###### Definition:
-Ensure a class only has one instance and provide a global point of access to it.
-
-[link1](http://www.dofactory.com/net/singleton-design-pattern)
-
-----
 
 __Abstract Factory__ Creates an instance of several families of classes
 
@@ -49,9 +40,22 @@ Separate the construction of a complex object from its representation so that th
 
 ----
 
-__Prototype__ Specify the kind of objects to create using a prototypical instance, and create new objects by copying this prototype.
+__Prototype__ A fully initialized instance to be copied or cloned 
+
+###### Definition:
+Specify the kind of objects to create using a prototypical instance, and create new objects by copying this prototype.
 
 [link1](http://www.dofactory.com/net/prototype-design-pattern)
+
+
+__The Singleton Pattern__ A class of which only a single instance can exist
+
+###### Definition:
+Ensure a class only has one instance and provide a global point of access to it.
+
+[link1](http://www.dofactory.com/net/singleton-design-pattern)
+
+----
 
 ### Structural
 
@@ -79,6 +83,8 @@ local references:
 ---
 
 ### Behavioral
+
+[Behavioral Design Patterns](https://www.codeproject.com/Articles/455228/Design-Patterns-of-Behavioral-Design-Patterns#Command)
 
 __ Null Object Design Pattern__
 

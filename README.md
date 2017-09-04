@@ -6,6 +6,17 @@ The 23 Gang of Four (GoF) patterns are generally considered the foundation for a
 
 ### Creational
 
+----
+__Abstract Factory__ Creates an instance of several families of classes
+
+###### Definition:
+Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
+
+[link1](http://www.dofactory.com/net/abstract-factory-design-pattern)
+[link2](http://designpatternsphp.readthedocs.io/en/latest/Creational/AbstractFactory/README.html)
+
+----
+
 __The Factory Method Pattern__ Pattern defines an interface
 for creating an object, but lets subclasses decide which
 class to instantiate. Factory Method lets a class defer
@@ -23,15 +34,6 @@ instantiation to subclasses.
 __The Simple Factory Pattern__ To separate the process of creating
 concrete objects from the client that uses those objects.
 To reduce the dependency of the client on that concrete implementations.
-
-----
-
-__Abstract Factory__ Creates an instance of several families of classes
-
-###### Definition:
-Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
-
-[link1](http://www.dofactory.com/net/abstract-factory-design-pattern)
 
 ----
 

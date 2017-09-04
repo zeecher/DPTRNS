@@ -13,6 +13,8 @@ instantiation to subclasses.
 
 * Dependency Inversion Principle
 
+[details]: http://www.dofactory.com/net/factory-method-design-pattern
+
 ---
 
 __The Simple Factory Pattern__ To separate the process of creating

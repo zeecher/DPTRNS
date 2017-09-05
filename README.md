@@ -227,16 +227,32 @@ send the request up the chain.
 
 * Decorator Pattern -> Destinction: but in chain u can stop the execution any time in the chain
 
-local : /home/zeecher/Videos/Development/Design Patterns/Design Patterns in PHP
-[codeproject](https://www.codeproject.com/Articles/455228/Design-Patterns-of-Behavioral-Design-Patterns#Chain)
-[dofactory](http://www.dofactory.com/net/chain-of-responsibility-design-pattern)
-[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Behavioral/ChainOfResponsibilities/README.html)
+local : /home/zeecher/Videos/Development/Design Patterns/Design Patterns in PHP  <br />
+[codeproject](https://www.codeproject.com/Articles/455228/Design-Patterns-of-Behavioral-Design-Patterns#Chain)  <br />
+[dofactory](http://www.dofactory.com/net/chain-of-responsibility-design-pattern)  <br />
+[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Behavioral/ChainOfResponsibilities/README.html)  <br />
 
 
 ---
 
-__The Command Pattern__
+__The Command Pattern__ Encapsulate a command request as an object
 
+Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
+
+[dofactory](http://www.dofactory.com/net/command-design-pattern) <br />
+[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Behavioral/Command/README.html) <br />
+[youtube](https://youtu.be/7Pj5kAhVBlg)
+
+---
+
+__The Iterator Pattern__  Sequentially access the elements of a collection
+
+provides a way to access the elements of an aggreage object sequentially without exposing its unberlying representation.
+
+[dofactory](http://www.dofactory.com/net/iterator-design-pattern) <br/>
+[codeproject](https://www.codeproject.com/Articles/455228/Design-Patterns-of-Behavioral-Design-Patterns#Iterator) <br />
+[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Behavioral/Iterator/README.html) <br/>
+[youtube](https://youtu.be/VKIzUuMdmag)
 
 ---
 
@@ -260,10 +276,6 @@ __The State Pattern__ allows an object to alter its behavior when its internal s
 
 * Strategy Pattern
 
----
-
-__The Iterator Pattern__ provides a way to access the elements of an aggreage object 
-sequentially without exposing its unberlying representation.
 
 ---
 

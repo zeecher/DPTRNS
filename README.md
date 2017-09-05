@@ -203,18 +203,12 @@ __Proxy__	An object representing another object
 [dofactory](http://www.dofactory.com/net/proxy-design-pattern)
 
 ----
+
 ### Behavioral
 
 Behavioral design patterns are design patterns that identify common communication patterns between objects and realize these patterns. By doing so, these patterns increase flexibility in carrying out this communication.
 
 [Behavioral Design Patterns](https://www.codeproject.com/Articles/455228/Design-Patterns-of-Behavioral-Design-Patterns#Command)
-
-
-__ Null Object Design Pattern__
-
-
-__Momento Design Pattern__
-Undo/Redo
 
 __The Chain of Responsibility Pattern__ A way of passing a request between a chain of objects 
 
@@ -275,6 +269,8 @@ local:
 
 __Memento__	Capture and restore an object's internal state
 
+Undo/Redo
+
 [dofactory](http://www.dofactory.com/net/memento-design-pattern) <br/>
 [designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Behavioral/Memento/README.html) <br />
 [codeproject](https://www.codeproject.com/Articles/455228/Design-Patterns-of-Behavioral-Design-Patterns#Memento) <br />
@@ -284,37 +280,83 @@ local:
 
 ----
 
-__The Strategy Pattern__ defines a family of algorithms,
-encapsulates each one, and makes them interchangeable.
-Strategy lets the algorithm vary independently from
-clients that use it.
+__ Null Object Design Pattern__
 
----
+NullObject is not a GoF design pattern but a schema which appears frequently enough to be considered a pattern. It has the following benefits:
 
-__The Observer Pattern__ defines a one-to-many
-dependency between objects so that when one
-object changes state, all of its dependents are
-notified and updated automatically.
+* Client code is simplified
+* Reduces the chance of null pointer exceptions
+* Fewer conditionals require less test cases
 
----
+Methods that return an object or null should instead return an object or NullObject. NullObjects simplify boilerplate code such as if (!is_null($obj)) { $obj->callSomething(); } to just $obj->callSomething(); by eliminating the conditional check in client code.
 
-__The State Pattern__ allows an object to alter its behavior when its internal state changes. The object will appear to change its class. 
+[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Behavioral/NullObject/README.html)
+
+----
+
+__The Observer Pattern__ 	A way of notifying change to a number of classes
+
+* Defines a one-to-many dependency between objects so that when one
+object changes state, all of its dependents are notified and updated automatically.
+
+* To implement a publish/subscribe behaviour to an object, whenever a “Subject” object changes its state, the attached “Observers” will be notified. It is used to shorten the amount of coupled objects and uses loose coupling instead.
+
+###### Note 
+PHP already defines two interfaces that can help to implement this pattern: SplObserver and SplSubject.
+
+[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Behavioral/Observer/README.html)
+
+###### local:
+* /home/zeecher/Videos/Development/Design Patterns/Design Patterns in PHP/8 - Observe This, Fool.mp4
+
+----
+
+__Specification__
+
+Builds a clear specification of business rules, where objects can be checked against. The composite specification class has one method called isSatisfiedBy that returns either true or false depending on whether the given object satisfies the specification.
+
+[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Behavioral/Specification/README.html)
+
+###### local:
+/home/zeecher/Videos/Development/Design Patterns/Design Patterns in PHP
+
+----
+
+
+__The State Pattern__ Alter an object's behavior when its state changes
+
+Allows an object to alter its behavior when its internal state changes. The object will appear to change its class. 
 
 ###### pattern similarities:
 
 * Strategy Pattern
 
+----
+
+__The Strategy Pattern__ Encapsulates an algorithm inside a class
+
+Defines a family of algorithms, encapsulates each one, and makes them interchangeable.
+Strategy lets the algorithm vary independently from clients that use it.
 
 ---
 
-__The Template Method Pattern__ Define the skeleton of an algorithm in an operation, 
+__The Template Method Pattern__ Defer the exact steps of an algorithm to a subclass
+
+Define the skeleton of an algorithm in an operation, 
 deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
 
 ###### adheres:
 
 * Don't call us, we'll call you
 
----
+----
+__Visitor__ Defines a new operation to a class without change
+
+----
+
+### More
+
+
 
 OO Design Principles
 ===================================

@@ -338,6 +338,13 @@ __The Strategy Pattern__ Encapsulates an algorithm inside a class
 Defines a family of algorithms, encapsulates each one, and makes them interchangeable.
 Strategy lets the algorithm vary independently from clients that use it.
 
+[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Behavioral/Strategy/README.html) <br />
+[dofactory](http://www.dofactory.com/net/strategy-design-pattern) <br />
+[codeproject](https://www.codeproject.com/Articles/455228/Design-Patterns-of-Behavioral-Design-Patterns#Strategy) <br />
+
+###### local:
+* /home/zeecher/Videos/Development/Design Patterns/Design Patterns in PHP/4 - Pick a Strategy.mp4
+
 ---
 
 __The Template Method Pattern__ Defer the exact steps of an algorithm to a subclass
@@ -349,7 +356,11 @@ deferring some steps to subclasses. Template Method lets subclasses redefine cer
 
 * Don't call us, we'll call you
 
+###### local:
+* /home/zeecher/Videos/Development/Design Patterns/Design Patterns in PHP/3 - The Template Method Pattern.mp4
+
 ----
+
 __Visitor__ Defines a new operation to a class without change
 
 ----

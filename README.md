@@ -256,6 +256,34 @@ provides a way to access the elements of an aggreage object sequentially without
 
 ---
 
+__Mediator__	Defines simplified communication between classes
+
+* This pattern provides an easy way to decouple many components working together. It is a good alternative to Observer IF you have a “central intelligence”, like a controller (but not in the sense of the MVC).
+
+* It is used to handle communication between related objects(Colleagues)
+* All communication is handled by the Mediator and the Colleagues don't need to know anything about each other.
+
+[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Behavioral/Mediator/README.html) <br />
+[dofactory](http://www.dofactory.com/net/mediator-design-pattern) <br />
+[codeproject](https://www.codeproject.com/Articles/455228/Design-Patterns-of-Behavioral-Design-Patterns#Mediator) <br />
+[youtube](https://youtu.be/8DxIpdKd41A) <br />
+
+local: 
+* /home/zeecher/Videos/Development/Design Patterns/[Pluralsight] Design Patterns Library [2010, ENG]/Pluralsight Design Patterns Library 2015/16 - Mediator Pattern
+* /home/zeecher/Videos/Development/Design Patterns/newthinktank.com - Design Patterns [LQ] ® vampiri6ka/24 Mediator.mkv
+---
+
+__Memento__	Capture and restore an object's internal state
+
+[dofactory](http://www.dofactory.com/net/memento-design-pattern) <br/>
+[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Behavioral/Memento/README.html) <br />
+[codeproject](https://www.codeproject.com/Articles/455228/Design-Patterns-of-Behavioral-Design-Patterns#Memento) <br />
+
+local:
+* /home/zeecher/Videos/Development/Design Patterns/[Pluralsight] Design Patterns Library [2010, ENG]/Pluralsight Design Patterns Library 2015/17 - Memento
+
+----
+
 __The Strategy Pattern__ defines a family of algorithms,
 encapsulates each one, and makes them interchangeable.
 Strategy lets the algorithm vary independently from

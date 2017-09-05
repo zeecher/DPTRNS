@@ -216,13 +216,19 @@ __ Null Object Design Pattern__
 __Momento Design Pattern__
 Undo/Redo
 
-__The Chain of Responsibility Pattern__ Chain object calls while giving each of then objects 
+__The Chain of Responsibility Pattern__ A way of passing a request between a chain of objects 
+
+###### Definition:
+Chain object calls while giving each of then objects 
 the ability to eigher end the execution and handle the request, if it can't handle the request then 
 send the request up the chain.
 
 ###### pattern similarities:
 
 * Decorator Pattern -> Destinction: but in chain u can stop the execution any time in the chain
+
+local : /home/zeecher/Videos/Development/Design Patterns/Design Patterns in PHP
+
 
 ---
 

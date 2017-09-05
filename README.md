@@ -228,6 +228,9 @@ send the request up the chain.
 * Decorator Pattern -> Destinction: but in chain u can stop the execution any time in the chain
 
 local : /home/zeecher/Videos/Development/Design Patterns/Design Patterns in PHP
+[codeproject](https://www.codeproject.com/Articles/455228/Design-Patterns-of-Behavioral-Design-Patterns#Chain)
+[dofactory](http://www.dofactory.com/net/chain-of-responsibility-design-pattern)
+[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Behavioral/ChainOfResponsibilities/README.html)
 
 
 ---

@@ -29,8 +29,11 @@ instantiation to subclasses.
 
 * Dependency Inversion Principle
 
-[link1](http://www.dofactory.com/net/factory-method-design-pattern)
-[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Creational/FactoryMethod/README.html)
+<sub><sup>[link1](http://www.dofactory.com/net/factory-method-design-pattern)</sup></sub>
+<sub><sup>[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Creational/FactoryMethod/README.html)</sup></sub>
+
+
+<sub><sup>Design Patterns: Elements of Reusable Object-Oriented Software (page 107)</sup></sub>
 
 ---
 

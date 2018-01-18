@@ -13,12 +13,10 @@ __Abstract Factory__ Creates an instance of several families of classes
 ###### Definition:
 Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
 
-[link1](http://www.dofactory.com/net/abstract-factory-design-pattern)
-[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Creational/AbstractFactory/README.html)
-
+<sub><sup>[link1](http://www.dofactory.com/net/abstract-factory-design-pattern)</sup></sub>
+<sup><sub>[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Creational/AbstractFactory/README.html)</sup></sub>
 
 <sub><sup>Design Patterns: Elements of Reusable Object-Oriented Software (page 87)</sup></sub>
-
 
 ----
 
@@ -61,8 +59,8 @@ Builder is an interface that build parts of a complex object.
 ###### Definition:
 Separate the construction of a complex object from its representation so that the same construction process can create different representations.
 
-[link1](http://www.dofactory.com/net/builder-design-pattern)
-[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Creational/Builder/README.html)
+<sub><sup>[link1](http://www.dofactory.com/net/builder-design-pattern)</sup></sub>
+<sub><sup>[designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Creational/Builder/README.html)</sup></sub>
 
 <sub><sup>Design Patterns: Elements of Reusable Object-Oriented Software (page 97)</sup></sub>
 

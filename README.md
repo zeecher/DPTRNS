@@ -16,7 +16,10 @@ Provide an interface for creating families of related or dependent objects witho
 [link1](http://www.dofactory.com/net/abstract-factory-design-pattern)
 [designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Creational/AbstractFactory/README.html)
 
-Design Patterns: Elements of Reusable Object-Oriented Software (page 87)
+
+<sub><sup>Design Patterns: Elements of Reusable Object-Oriented Software (page 87)</sup></sub>
+
+
 ----
 
 __The Factory Method Pattern__ Pattern defines an interface
@@ -61,7 +64,8 @@ Separate the construction of a complex object from its representation so that th
 [link1](http://www.dofactory.com/net/builder-design-pattern)
 [designpatternsphp](http://designpatternsphp.readthedocs.io/en/latest/Creational/Builder/README.html)
 
-Design Patterns: Elements of Reusable Object-Oriented Software (page 97)
+<sub><sup>Design Patterns: Elements of Reusable Object-Oriented Software (page 97)</sup></sub>
+
 ----
 
 __Prototype__ A fully initialized instance to be copied or cloned 
